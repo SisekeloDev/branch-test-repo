@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>myApp</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/Workspace/gitClones/warren/mainApp.css" rel="stylesheet" />
+    </head>
+
+    <body onload="init()">
+        <div class="form" id="display">
+            <video class="form" autoplay muted loop id="backgroundVideo"
+                                    class="bg-video" 
+                                    playsinline="playsinline" 
+                                    autoplay="autoplay" 
+                                    muted="muted" 
+                                    loop="loop">
+                                    
+                                    <source 
+                                    src="/myapp/background.mp4" 
+                                    type="video/mp4">
+
+                            </video><!-- Background Video-->
+        </div>
+        <div>
+            <button id="hideBtn" class="form" onclick="hideVideo()">Show Video</button>
+        </div>
+        <script src="/Workspace/gitClones/warren/mainApp.js"></script>
+    </body>
+</html>
